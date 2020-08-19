@@ -1,0 +1,11 @@
+<section class="post-section">
+  <div class="post">
+    <h2 class="post-title">{{ post.title }}</h2>
+    <p>{{ post.thought }}</p>
+  </div>
+  <div>
+    <button (click)="deletePost()" class="trash-btn">
+      <i class="fas fa-trash"></i>
+    </button>
+  </div>
+</section>

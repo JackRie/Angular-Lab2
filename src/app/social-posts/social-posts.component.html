@@ -1,0 +1,11 @@
+<main class="main">
+  <h1 class="title">My Thoughts</h1>
+  <app-new-thought (added)="onAdd($event)"></app-new-thought>
+  <section class="app-post-section">
+    <app-post
+      *ngFor="let post of posts; index as i"
+      [post]="post"
+      (deleted)="onDelete(i)"
+    ></app-post>
+  </section>
+</main>

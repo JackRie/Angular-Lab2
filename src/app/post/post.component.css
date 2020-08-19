@@ -1,0 +1,17 @@
+.post-section {
+  display: flex;
+  align-items: center;
+}
+
+.post {
+  flex: 1;
+}
+
+.trash-btn {
+  background-color: white;
+  border: none;
+}
+
+.post-title {
+  font-size: 24px;
+}
